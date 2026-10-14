@@ -25,3 +25,15 @@ function effacer() {
     document.getElementById("message").textContent = "";
 }
 
+function verifAge() {
+    let n1 = prompt("Donnez votre age");
+   
+    if (n1<18) {
+        document.write("Vous etes mineur");
+        document.body.style.backgroundColor="red";
+    }
+    else {
+        document.write("Vous etes majeur");
+        document.body.style.backgroundColor="green"
+    }  
+}   
